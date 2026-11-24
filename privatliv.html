@@ -27,50 +27,69 @@ nav{display:flex;gap:16px;flex-wrap:wrap;margin-top:32px;font-size:15px}
 <main>
 <header><span class="logo"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M2.5 12c2.6-4 6.4-5.6 10.4-5 2.7.4 4.6 2 5.9 3.6L21.5 8v8l-2.7-2.6c-1.3 1.6-3.2 3.2-5.9 3.6-4 .6-7.8-1-10.4-5z"/><circle cx="7.2" cy="11" r=".9" fill="currentColor"/></svg></span><a href="./">Fiskemakker</a></header>
 <h1>Privatlivspolitik</h1>
-<p class="muted">Senest opdateret: 19. november 2026</p>
+<p class="muted">Senest opdateret: 24. november 2026</p>
 <p>Her kan du læse, hvilke oplysninger Fiskemakker bruger, hvorfor, og hvad du selv kan bestemme. Vi bruger kun det, der skal til for at appen virker.</p>
 
 <h2>Hvem står bag</h2>
-<p>Fiskemakker er lavet og drives af en privat udvikler i Danmark. Udviklerens navn står i App Store. Du kan altid skrive til <a href="mailto:fiskemakker@hotmail.com">fiskemakker@hotmail.com</a>.</p>
+<p>Fiskemakker er lavet og drives af Shirren Mohamed, en privat udvikler i Danmark, som er dataansvarlig. Du kan altid skrive til <a href="mailto:fiskemakker@hotmail.com">fiskemakker@hotmail.com</a>.</p>
+
+<h2>Login</h2>
+<p>Du logger ind med Apple eller Google. Vi får et fast bruger-ID fra Apple eller Google og den mailadresse, de giver os. Med Apple kan du vælge at skjule din rigtige mail. Vi får aldrig din adgangskode. Mailen bruger vi kun til login og ikke til nyhedsbreve.</p>
 
 <h2>Hvad vi gemmer</h2>
 <ul>
-<li><b>Din profil:</b> dit brugernavn og, hvis du vælger det, et profilbillede.</li>
-<li><b>Ture:</b> sted, dato, tidspunkt og beskrivelse af de ture, du opretter eller deltager i, og beskeder i turens chat.</li>
-<li><b>Fangster:</b> art, længde, vægt, billede, sted og tidspunkt, hvis du udfylder det.</li>
+<li><b>Din profil:</b> dit brugernavn (kan ikke ændres) og, hvis du vælger det, et profilbillede.</li>
+<li><b>Ture:</b> sted, dato, tidspunkt og beskrivelse af de ture, du opretter eller deltager i, hvem der er med, og beskeder i turens chat (kun på ture, hvor I kører sammen).</li>
+<li><b>Fangster:</b> art, længde, vægt, billede, stedets navn, nålens position og tidspunkt, hvis du udfylder det. Også likes og kommentarer.</li>
 <li><b>Anmeldelser:</b> de stjerner og kommentarer, du giver og får efter en tur.</li>
+<li><b>Konkurrencer:</b> om du har trykket Tilmeld til en kommende konkurrence. Vinder du, gemmer vi den mail, du selv skriver for at få din præmie (se nedenfor).</li>
+<li><b>Foreninger:</b> hvis du må oprette ture for en forening, gemmer vi, at dit brugernavn hører til foreningen.</li>
+<li><b>Notifikationer:</b> en adresse til din telefon (push-token), så vi kan sende dig beskeder, og hvilke beskeder du har valgt.</li>
+<li><b>Sikkerhed:</b> anmeldelser af opslag og brugere, hvem du har blokeret, udelukkede brugere og et tal for, hvor mange ting du har gjort den seneste tid (så ingen kan sende spam).</li>
 <li><b>Fisketegn:</b> hvis du tilføjer dit fisketegn, gemmes det kun på din egen telefon.</li>
 </ul>
 
+<h2>Hvor dine oplysninger ligger</h2>
+<p>Dine oplysninger ligger på en server hos Supabase i EU (Stockholm, Sverige). Supabase behandler dem kun på vores vegne. Billeder ligger samme sted.</p>
+
 <h2>Hvorfor vi må bruge dine oplysninger</h2>
 <ul>
-<li><b>For at appen kan virke:</b> din profil, dine ture, fangster, beskeder og anmeldelser bruger vi, fordi det er nødvendigt for at give dig de funktioner, du beder om, når du bruger appen.</li>
-<li><b>Fordi du har sagt ja:</b> din placering bruges kun, hvis du har givet lov. Du kan altid trække tilladelsen tilbage i telefonens indstillinger.</li>
-<li><b>For at holde appen sikker:</b> når nogen anmelder et opslag eller en bruger, gemmer vi anmeldelsen, så vi kan fjerne indhold, der bryder reglerne. Det gør vi for at beskytte brugerne.</li>
+<li><b>For at appen kan virke:</b> din profil, dine ture, fangster, beskeder, anmeldelser og notifikationer bruger vi, fordi det er nødvendigt for at give dig de funktioner, du beder om, når du bruger appen.</li>
+<li><b>Fordi du har sagt ja:</b> din placering og notifikationer bruges kun, hvis du har givet lov. Du kan altid trække tilladelsen tilbage i telefonens indstillinger.</li>
+<li><b>For at holde appen sikker:</b> anmeldelser, blokeringer, udelukkelser og grænser for spam bruger vi for at beskytte brugerne og fjerne indhold, der bryder reglerne.</li>
 </ul>
 
 <h2>Din placering</h2>
-<p>Hvis du giver lov, bruger appen din placering, mens den er åben, til at vise kortet der, hvor du er, og hente vejret i nærheden. Vi følger ikke din placering i baggrunden og gemmer ikke, hvor du har været.</p>
-<p>Når du deler en fangst, flyttes stedet cirka 1 km på kortet, så andre ikke kan se din præcise plads.</p>
+<p>Hvis du giver lov, viser appen din placering som en blå prik på kortet, mens appen er åben. Vi følger ikke din placering i baggrunden og gemmer ikke, hvor du har været.</p>
+<p>Når du deler en fangst, kan du sætte en nål på kortet, hvor du fangede den. Det er altid dig, der vælger stedet. Du kan også lade være.</p>
+<p>Deler du fangsten med andre, vises den på kortet præcis der, hvor du har sat nålen. Vil du ikke vise din plads, kan du sætte nålen et andet sted ved vandet eller lade være med at sætte den.</p>
 
 <h2>Billeder</h2>
-<p>Når du deler et billede, gør appen det mindre og fjerner de skjulte oplysninger i billedfilen, fx GPS-position og telefonmodel.</p>
+<p>Før et billede gemmes eller deles, gør appen det mindre og fjerner alle skjulte oplysninger i billedfilen, fx GPS-position og telefonmodel. For at samme billede ikke kan deles to gange, gemmer vi et fingeraftryk af billedet (en kode, som billedet ikke kan genskabes ud fra).</p>
 
 <h2>Hvem kan se hvad</h2>
 <ul>
-<li>Ture, fangster du deler offentligt, dit brugernavn, profilbillede og dine stjerner kan ses af andre brugere.</li>
-<li>Fangster du gemmer som private, kan kun du se i din logbog.</li>
+<li>Ture, fangster du deler, dit brugernavn, profilbillede, likes, kommentarer og dine stjerner kan ses af andre brugere.</li>
+<li>Fangster, du gemmer som private, kan kun du se i din logbog.</li>
 <li>Turens chat kan kun ses af dem, der er med på turen.</li>
+<li>Ejeren af Fiskemakker kan se indhold, når det er nødvendigt for at moderere, fx når noget er anmeldt.</li>
 </ul>
 
-<h2>Tjenester appen henter data fra</h2>
+<h2>Konkurrencer</h2>
+<p>Konkurrencerne arrangeres af Fiskemakker. Apple er ikke sponsor. Vinder du, skriver du selv din mail for at få præmien. Mailen kan kun du og ejeren af Fiskemakker se. Den slettes, når præmien er udbetalt, eller hvis vinderen bliver diskvalificeret. En sponsor får aldrig deltagernes oplysninger.</p>
+
+<h2>Tjenester appen bruger</h2>
 <p>For at vise kort og vejr henter appen data fra disse tjenester. De får den position, der vises på kortet, og din telefons IP-adresse, men ikke dit navn eller andre oplysninger om dig:</p>
 <ul>
 <li><b>DMI</b> (Danmarks Meteorologiske Institut): vejr, bølger og vandtemperatur.</li>
-<li><b>Esri</b> og <b>OpenFreeMap</b>: kortbilleder og flyfoto.</li>
-<li><b>Fiskeristyrelsen</b>: kort over fredningsbælter.</li>
+<li><b>Esri</b> og <b>OpenFreeMap</b>: kortbilleder og satellitbilleder.</li>
+<li><b>Landbrugs- og Fiskeristyrelsen</b>: kort over fredningsbælter.</li>
 </ul>
-<p>Esri er et amerikansk firma. Når appen henter kortbilleder fra Esri, kan din telefons IP-adresse derfor blive sendt til USA. Esri får ikke dit navn eller andre oplysninger om dig, kun det, der skal til for at sende kortet til din telefon.</p>
+<p>Notifikationer sendes gennem <b>Expo</b> og <b>Apple</b>, som kun får beskeden og din telefons push-token. Login sker gennem <b>Apple</b> eller <b>Google</b>.</p>
+<p>Esri og Expo er amerikanske firmaer. Derfor kan din telefons IP-adresse eller push-token blive sendt til USA. De får ikke dit navn eller andre oplysninger om dig, kun det, der skal til for at levere kortet eller beskeden.</p>
+
+<h2>Notifikationer</h2>
+<p>Appen kan sende dig beskeder om ture, chat, kommentarer, konkurrencer og om, at dit fisketegn snart udløber. Under Profil → Notifikationer vælger du selv, hvilke beskeder du vil have. Aflysninger af ture sendes altid. Du kan slå alle beskeder fra i telefonens indstillinger.</p>
 
 <h2>Ingen reklamer og ingen sporing</h2>
 <p>Fiskemakker viser ikke reklamer, sporer dig ikke på tværs af apps og hjemmesider og sælger aldrig dine oplysninger til nogen.</p>
@@ -79,12 +98,13 @@ nav{display:flex;gap:16px;flex-wrap:wrap;margin-top:32px;font-size:15px}
 <ul>
 <li>Din profil, dine ture, fangster, beskeder og anmeldelser gemmes, indtil du selv sletter dem eller sletter din konto.</li>
 <li>Fangster vises på kortet i 30 dage. Derefter forsvinder de fra kortet, men de bliver i din logbog, indtil du sletter dem.</li>
+<li>Vinderens mail gemmes kun, indtil præmien er udbetalt.</li>
 <li>Anmeldelser af opslag og brugere gemmes kun, så længe vi skal bruge dem til at behandle sagen.</li>
 <li>Dit fisketegn ligger kun på din egen telefon, indtil du fjerner det.</li>
 </ul>
 
 <h2>Sletning</h2>
-<p>Du kan selv slette dine ture, fangster og kommentarer. Under Profil → Slet konto kan du slette din konto. Så slettes din profil, dine ture, fangster og kommentarer for altid.</p>
+<p>Du kan selv slette dine ture, fangster og kommentarer. Under Profil → Slet konto kan du slette din konto. Så slettes din profil, dine ture, fangster, beskeder og kommentarer for altid.</p>
 
 <h2>Dine rettigheder</h2>
 <p>Du har ret til at:</p>
